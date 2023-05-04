@@ -21,7 +21,7 @@ fn warning() {
 
 
 fn thanks() {
-    println!("[+] Idea by Noobosaurus_R3x, bring to life by deadc0de");
+    println!("[+] Idea by Noobosaurus_R3x, brought to life by deadc0de");
 
 }
 
