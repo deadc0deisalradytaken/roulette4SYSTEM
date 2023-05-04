@@ -32,7 +32,7 @@ fn main() -> std::io::Result<()> {
                 println!("[+] Connection from {}, waiting for {} player",peer_addr, (10-count));
 
 
-                if count == 1 {
+                if count == 10 { //change count
                     match connections.get(random_int(count).unwrap()) {
                         Some(choosen_one) => {
                             println!("[+] Bad day for {}, say good bye to system ! ",choosen_one.peer_addr().unwrap());
