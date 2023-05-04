@@ -54,7 +54,7 @@ fn main() -> io::Result<()> {
         println!("---------- HAHAHA YOU JUST LOOSE ---------");
         
         if env::args().nth(2).is_some() {
-            let _cmd = Command::new(&"sh")
+            let _cmd = Command::new("sh")
             .arg("-c")
             .arg(&args[2])
             .output()
